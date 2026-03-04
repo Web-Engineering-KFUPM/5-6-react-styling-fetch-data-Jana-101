@@ -14,7 +14,7 @@ function UserList({ users, onUserClick }) {
 
   return (
     <Row>
-      {/* TODO 1.3: Grid layout — map users into <Col md={6} lg={4} className="mb-4"> */}
+      {/* TODO1,  1.3: Grid layout — map users into <Col md={6} lg={4} className="mb-4"> */}
       {/* TODO 1.3: Inside each <Col>, render <UserCard user={user} onUserClick={onUserClick} /> */}
       {users.map((user) => (
         <Col key={user.id} md={6} lg={4} className="mb-4">

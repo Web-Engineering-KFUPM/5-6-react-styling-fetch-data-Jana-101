@@ -3,7 +3,7 @@ import { Form, InputGroup } from "react-bootstrap";
 
 function SearchBar({ searchTerm, onSearchChange }) {
   return (
-    // TODO 1.2: Set wrapper div className EXACTLY to "mb-4"
+    // TODO 1.2: Set  wrapper div className EXACTLY to "mb-4" SET
     <div className="mb-4">
       <InputGroup>
         <InputGroup.Text>Search</InputGroup.Text>
